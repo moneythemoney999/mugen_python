@@ -1,0 +1,15 @@
+[project]
+name = "mugenpy"
+version = "1.0.0.0"
+description = "Un langage Python en français (FR → PY) créé par Mugen♾️♾️"
+authors = [
+    { name="Money Mugen♾️♾️", email="mugenbidouilleur@gmail.com" }
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+mgpy = "mugenpy.executeur:run"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
