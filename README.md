@@ -10,7 +10,7 @@ Un mini-langage Python en français.
     cd mugen_python 
     
 ### 3. Rendre le lanceur exécutable
-      ➪ chmod +x mgpy
+    chmod +x mgpy
       
 ### 4. (Optionnel mais recommandé) Ajouter mgpy au PATH 《Pour l’utiliser partout dans ton environnement mais si tu veux pas on s'en branle》
     export PATH=$PATH:$HOME/mugen-python  
