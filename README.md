@@ -23,9 +23,7 @@ Un mini-langage Python en français.
 
 ### 7. Pour savoir les mots à utiliser va voir le fichier :
     mots_cles
-
-    ---
-
+    
 ## 8. Objectif du projet
 
     - Rendre Python plus simple en français  
