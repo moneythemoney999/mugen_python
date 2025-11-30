@@ -2,7 +2,7 @@ import sys
 from .traducteur import mugen_python_mots
 
 def traduire(code):
-    for eng, fr in mugen_python_fr.items():
+    for eng, fr in mugen_python_mots.items():
         code = code.replace(fr, eng)
     return code
 
