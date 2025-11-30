@@ -1,4 +1,4 @@
-mugen_python_fr = {
+mugen_python = {
     "print": "affiche",
     "append": "ajoute",
     "remove": "suprime",
