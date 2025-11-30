@@ -14,3 +14,6 @@ Un mini-langage Python en français.
     export PATH=$PATH:$HOME/mugen-python  
 ### 5. Pour utiliser il faut créer ton fichier avec les instructions en français et ensuite pour lancer:
     mgpy <ton_fichier>
+### 6. Pour savoir les mots à utiliser va voir le fichier :
+    mots_cles
+    
