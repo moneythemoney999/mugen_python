@@ -1,20 +1,22 @@
 import sys
-import re
 from .traduction import mugen_python_fr
 
 def traduire(code):
     for eng, fr in mugen_python_fr.items():
-        code = re.sub(r'\b' + fr + r'\b', eng, code)
+        code = code.replace(fr, eng)
     return code
 
-def executer_fichier(chemin):
-    with open(chemin, "r") as f:
-        code_mugen = f.read()
-    code_python = traduire(code_mugen)
-    exec(code_python, {})
+def executer(fichier):
+    with open(fichier, "r") as f:
+        code_fr = f.read()
 
-def main():
+    code_py = traduire(code_fr)
+    exec(code_py)
+
+def cli():
     if len(sys.argv) < 2:
-        print("Utilisation : mgpy <script>")
-        return
-    executer_fichier(sys.argv[1])
+        print("Utilisation : mgpy <fichier>")
+        sys.exit(1)
+
+    fichier = sys.argv[1]
+    executer(fichier)
