@@ -34,3 +34,5 @@ Un mini-langage Python en français.
     - Et il faut dire aussi que j'avais flemme de tout le temps coder en anglais et pas dans une langue que je parle🤣
 
 ## 9. Licence
+   Jm'en bat les couilles de l'utilisation c'est gratos vous faite comme vous voulez les gars
+   
