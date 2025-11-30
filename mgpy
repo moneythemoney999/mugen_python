@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
+import sys
 from mugen.execute import main
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        print("Utilisation : mgpy <fichier>")
+        sys.exit(1)
+
+    fichier = sys.argv[1]
+    main(fichier)
