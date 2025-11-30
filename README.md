@@ -4,9 +4,11 @@ Un mini-langage Python en français.
 ## Installation
 
 ### 1. Cloner le dépôt
+    git clone https://github.com/moneythemoney999/mugen_python.git
 
 ### 2. Entrer dans le dossier
-
+    cd mugen_python 
+    
 ### 3. Rendre le lanceur exécutable
       ➪ chmod +x mgpy
       
