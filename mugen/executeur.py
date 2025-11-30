@@ -1,5 +1,5 @@
 import sys
-from .traduction import mugen_python_fr
+from .traducteur import mugen_python_fr
 
 def traduire(code):
     for eng, fr in mugen_python_fr.items():
