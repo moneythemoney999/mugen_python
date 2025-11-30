@@ -11,4 +11,4 @@ requires-python = ">=3.7"
 authors = [{name = "Money Mugen♾️♾️"}]
 
 [project.scripts]
-mgpy = "mugen.execute:cli"
+mgpy = "mugen.executeur:cli"
