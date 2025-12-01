@@ -5,7 +5,6 @@ from .traducteur import mugen_python_mots
 def traduire(code):
     """
     Traduit le code écrit en français en code Python.
-    Utilise des regex pour remplacer uniquement les mots entiers.
     """
     for eng, fr in mugen_python_mots.items():
         code = re.sub(rf'\b{re.escape(fr)}\b', eng, code)
