@@ -1,11 +1,11 @@
 mugen_python_mots = {
     "print": "affiche",
     "append": "ajoute",
-    "remove": "suprime",
+    "remove": "supprime",
     "del": "efface",
     "len": "long",
     "sort": "trie",
-    "extend": "etand",
+    "extend": "etend",
     "insert": "inser",
     "pop": "extrais",
     "index": "indice",
@@ -20,4 +20,7 @@ mugen_python_mots = {
     "in": "dans",
     "if": "si",
     "else": "sinon",
+    "and": "et",
+    "or": "ou",
+    "elif": "sinonsi",
 }
