@@ -1,8 +1,8 @@
-# Mugen Python (mgpy)
+### 1. Mugen Python (mgpy)
 Un mini-langage Python en français.
-Ça casse les couilles de coder en anglais alors qu'on le parle pas
-github: `https://github.com/moneythemoney999/mugen_python`
-
+Ça casse les couilles de coder en anglais alors qu'on le parle pas.
+Dépôt github: `https://github.com/moneythemoney999/mugen_python`.Et aussi les gars évitez d'exécuter n'importe quoi avec, parce ça faut que traduire pour Python donc il a la même puissance exemple cette commande marche toujoursmêmeen version traduite:
+    
 ## Installation avec pip donc assure toi d'abord pip installer avant:
     pip install mugen-python
     
