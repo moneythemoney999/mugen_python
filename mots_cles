@@ -1,23 +1,75 @@
 mots_cles = {
-    "print": "affiche",
-    "append": "ajoute",
-    "remove": "suprime",
-    "del": "efface",
-    "len": "long",
-    "sort": "trie",
-    "extend": "etand",
-    "insert": "inser",
-    "pop": "extrais",
-    "index": "indice",
-    "count": "compte",
-    "reverse": "inverse",
-    "dict": "dict",
-    "keys": "cles",
-    "values": "valeurs",
-    "items": "elements",
-    "get": "trouve",
-    "clear": "vider",
-    "in": "dans",
-    "if": "si",
-    "else": "sinon",
+
+    "print": "affiche"  # affiche quelque chose,
+        #Python normal: `print("texte")`, Mugen Python: `affiche("texte")`
+
+    "append": "ajoute"  # ajoute un élément à la fin d'une lislis
+        #Python normal: `liste.append(valeur)`, Mugen Python: `liste.ajoute(valeur)`
+
+    "remove": "supprime"  # supprime un élément d'une liste,
+        #Python normal: `liste.remove(valeur)`, Mugen Python: `liste.supprime(valeur)`
+
+    "del": "efface"  # supprime une variable ou un élément,
+        #Python normal: `del liste[0]`, Mugen Python: `efface liste[0]`
+
+    "len": "long"  # retourne la longueur d'une liste ou chaîne,
+        #Python normal: `len(liste)`, Mugen Python: `long(liste)`
+
+    "sort": "trie"  # trie une liste,
+        #Python normal: `liste.sort()`, Mugen Python: `liste.trie()`
+
+    "extend": "etend"  # étend une liste avec une autre liste,
+        #Python normal: `liste.extend(liste2)`, Mugen Python: `liste.etend(liste2)`
+
+    "insert": "inser"  # insère un élément à un index précis,
+        #Python normal: `liste.insert(0, valeur)`, Mugen Python: `liste.inser(0, valeur)`
+
+    "pop": "extrais"  # retire et retourne un élément,
+        #Python normal: `liste.pop()`, Mugen Python: `liste.extrais()`
+
+    "index": "indice"  # retourne l'indice d'un élément,
+        #Python normal: `liste.index(valeur)`, Mugen Python: `liste.indice(valeur)`
+
+    "count": "compte"  # compte le nombre d'occurrences d'un élément,
+        #Python normal: `liste.count(valeur)`, Mugen Python: `liste.compte(valeur)`
+
+    "reverse": "inverse"  # inverse l'ordre d'une liste,
+        #Python normal: `liste.reverse()`, Mugen Python: `liste.inverse()`
+
+    "dict": "dict"  # dictionnaire Python,
+        #Python normal: `d = dict()`, Mugen Python: `d = dict()`
+
+    "keys": "cles"  # retourne les clés d'un dictionnaire,
+        #Python normal: `d.keys()`, Mugen Python: `d.cles()`
+
+    "values": "valeurs"  # retourne les valeurs d'un dictionnaire,
+        #Python normal: `d.values()`, Mugen Python: `d.valeurs()`
+
+    "items": "elements"  # retourne les couples clé-valeur,
+        #Python normal: `d.items()`, Mugen Python: `d.elements()`
+
+    "get": "trouve"  # récupère la valeur d'une clé avec option par défaut,
+        #Python normal: `d.get("k")`, Mugen Python: `d.trouve("k")`
+
+    "clear": "vider"  # vide la liste ou dictionnaire,
+        #Python normal: `liste.clear()`, Mugen Python: `liste.vider()`
+
+    "in": "dans"  # test d'appartenance,
+        #Python normal: `"a" in liste`, Mugen Python: `"a" dans liste`
+
+    "if": "si"  # condition,
+        #Python normal: `if condition:`, Mugen Python: `si condition:`
+
+    "else": "sinon"  # sinon,
+        #Python normal: `else:`, Mugen Python: `sinon:`
+
+    "and": "et"  # opérateur logique ET,
+        #Python normal: `a and b`, Mugen Python: `a et b`
+
+    "or": "ou"  # opérateur logique OU,
+        #Python normal: `a or b`, Mugen Python: `a ou b`
+
+    "elif": "sinonsi"  # sinon si,
+        #Python normal: `elif condition:`, Mugen Python: `sinonsi condition:`
+
 }
