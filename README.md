@@ -5,7 +5,7 @@ Dépôt github: `https://github.com/moneythemoney999/mugen_python`.
 
 Et aussi les gars évitez d'exécuter n'importe quoi avec, parce ça faut que traduire pour Python donc il a la même puissance exemple cette commande marche :
         `import os      
-os.system('rm -rf /')`
+os.system('rm -rf /')` eg cette commande comme vous pourrait le savoir est très dangereux donc fait attention ⚠️ , c'était qun exemple mais y'en a t'en d'autres, donc exécuter vos codes avec prudence.
 
 ### 2. Installation avec pip donc assure toi d'abord pip installer avant:
     pip install mugen-python
